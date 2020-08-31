@@ -12,7 +12,8 @@ export class Product extends Component {
     const { name, price, currency, image, isInCart } = this.props;
     return (
       <div className='product thumbnail'>
-        <img src={image} alt='product' />
+        <img src={require(`../../${image}`)} alt='product' />
+        {/* src={require(`../../../static/products/${product.sku}_1.jpg`)} */}
         <div className='caption'>
           <h3>{name}</h3>
           <div className='product__price'>

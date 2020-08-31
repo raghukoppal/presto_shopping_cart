@@ -31,7 +31,7 @@ export const ProductsCarousel = ({ products }) => {
           {products.map((product) => (
             <ProductItem>
               <div className='product-item'>
-                <img src={product.image} alt='product' />
+                <img src={require(`../../${product.image}`)} alt='product' />
                 <h6>{product.name}</h6>
               </div>
             </ProductItem>

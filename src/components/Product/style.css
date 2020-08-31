@@ -3,6 +3,18 @@
   overflow: auto;
 }
 
+.product .caption {
+  margin-top: auto;
+}
+
+.caption h3 {
+  font-size: 1.2rem;
+}
+
+.product img {
+  max-width: 100%;
+}
+
 .product__price {
   display: inline-block;
   line-height: 34px;

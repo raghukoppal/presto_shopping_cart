@@ -95,3 +95,7 @@ ul.progressbar li.active:after {
 .product-carousel .product-item {
   text-align: left;
 }
+
+.product-carousel .product-item img {
+  max-width: 100%;
+}
