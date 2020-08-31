@@ -2,6 +2,8 @@ Example Shopping Cart
 
 ## getting started
 
+Instal Yarn
+
 Install dependencies
 
 ### `yarn install` or `npm install`
