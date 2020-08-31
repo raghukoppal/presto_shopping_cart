@@ -2,7 +2,7 @@ Example Shopping Cart
 
 ## getting started
 
-### Instal Yarn
+### Install Yarn
 
 Install dependencies
 
